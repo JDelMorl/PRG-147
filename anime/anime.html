@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime</title>
+</head>
+<body>
+    <h1>Yay the Image Moves!!!</h1>
+    <img src="image1.gif" alt="cat clap" id="catClap">
+    <p>
+        The Pros: <br>
+        it makes coding less of a hassle because its already done for you <br>
+        The Cons: <br>
+        It develops a dependance
+    </p>
+    <script src="anime.min.js"></script>
+    <script>
+        anime({
+                targets: '#catClap',
+                translateX: 250
+            });
+    </script>
+</body>
+</html>
